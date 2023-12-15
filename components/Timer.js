@@ -37,9 +37,9 @@ const Timer = () => {
   };
 
   const backgroundSounds = [
-    { name: 'Forest Ambiance', path: require('./forest.mp3') },
-    { name: 'Ocean Waves', path: require('./waves.mp3') },
-    { name: 'Cafe Music', path: require('./cafe.mp3') },
+    { name: 'Ambient Guitar', path: require('./ambguitar.mp3') },
+    { name: 'Spanish Guitar 1', path: require('./inst521.mp3') },
+    { name: 'Spanish Guitar 2', path: require('./Inst1020.mp3') },
   ];
 
   // Add sound playing functions for background and interval
