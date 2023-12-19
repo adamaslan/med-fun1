@@ -12,16 +12,16 @@ const Timer = () => {
 
   const intervalSounds = [
     // List of available interval sounds
-    { name: 'Chime', path: require('./chime.mp3') },
-    { name: 'Bell', path: require('./bell.mp3') },
-    { name: 'Beep', path: require('./beep.mp3') },
+    // { name: 'Chime', path: require('./chime.mp3') },
+    // { name: 'Bell', path: require('./bell.mp3') },
+    { name: 'Beep', path: require('./beep1.wav') }
   ];
 
   const endingSounds = [
     // List of available ending sounds
-    { name: 'Applause', path: require('./applause.mp3') },
-    { name: 'Fanfare', path: require('./fanfare.mp3') },
-    { name: 'Victory', path: require('./victory.mp3') },
+    // { name: 'Applause', path: require('./applause.mp3') },
+    { name: 'Fanfare', path: require('./fanfare1.wav') },
+    // { name: 'Victory', path: require('./victory.mp3') },
   ];
 
   const handleStartTimer = () => {
@@ -37,9 +37,9 @@ const Timer = () => {
   };
 
   const backgroundSounds = [
-    { name: 'Forest Ambiance', path: require('./forest.mp3') },
-    { name: 'Ocean Waves', path: require('./waves.mp3') },
-    { name: 'Cafe Music', path: require('./cafe.mp3') },
+    { name: 'Ambient Guitar', path: require('./ambguitar.mp3') },
+    { name: 'Spanish Guitar 1', path: require('./inst521.mp3') },
+    { name: 'Spanish Guitar 2', path: require('./Inst1020.mp3') },
   ];
 
   // Add sound playing functions for background and interval
